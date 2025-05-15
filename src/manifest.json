@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "MySU Survey Popup Blocker",
+  "version": "1.0",
+  "description": "Surveys are meant to be optional. So this extension blocks that do the survey blocker.",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://mysu.sabanciuniv.edu/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "block-mysu-survey",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
