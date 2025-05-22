@@ -7,5 +7,14 @@
       "urlFilter": "https://mysu.sabanciuniv.edu/mysu-bundle/susurvey/susurvey-ajax",
       "resourceTypes": ["xmlhttprequest", "sub_frame", "main_frame"]
     }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "https://mysu.sabanciuniv.edu/tr/mysu-bundle/susurvey/susurvey-ajax",
+      "resourceTypes": ["xmlhttprequest", "sub_frame", "main_frame"]
+    }
   }
 ]
